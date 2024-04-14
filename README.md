@@ -12,6 +12,11 @@ git clone https://github.com/shpekery/museum.git --recursive
 git submodule update --init --remote --recursive
 ```
 
+Добавить новый сабмодуль
+```shell
+git submodule add https://github.com/shpekery/museum-frontend frontend
+```
+
 ## Запуск
 
 Сбилдить докер образ
