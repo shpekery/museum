@@ -19,7 +19,9 @@ git submodule update --init --remote --recursive
 
 ## Запуск
 
-Сбилдить докер образ
+Файл `.env.example` переименовать в `.env` и обновить в нем переменную окружения `ML_API_URI` (ссылка на API ML сервиса)
+
+Сбилдить докер образы
 
 ```shell
 docker compose build
